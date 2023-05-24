@@ -784,13 +784,7 @@ img {
   margin-top: 8px;
 }
 
-.modal-form-check-des::before {
-  content: "";
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-}
+
 
 .link {
 }
@@ -839,6 +833,15 @@ img {
   justify-content: center;
   align-items: center;
   /* background: #F4F4FD; */
+}
+
+.modal-form-check-des::before {
+  display: block;
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {

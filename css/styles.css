@@ -784,10 +784,8 @@ img {
 }
 
 .modal-form-check {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
+ appearance: none;
+ position: absolute;
 }
 
 .modal-form-check-desc {
@@ -843,9 +841,9 @@ img {
 }
 
 .visually-hidden {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  opacity: 0;
+  opacity: 0; */
 }
 
 .fake-icon {
@@ -869,7 +867,7 @@ img {
   border-color:  #404bbf;
 }
 
-.modal-form-check-des {
+.modal-form-check-desc {
   display: block;
   width: 16px;
   height: 16px;
@@ -891,4 +889,8 @@ img {
   /* opacity: 1; */
   fill: #ffffff;
   background-color: #404BBF;
+}
+
+.modal-form-check:focus + .fake-check {
+  outline: 1px solid rgba(0, 0, 0, 0.08);
 }

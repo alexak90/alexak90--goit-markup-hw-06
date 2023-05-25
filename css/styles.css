@@ -789,7 +789,8 @@ img {
 }
 
 .modal-form-check-desc {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -847,12 +848,16 @@ img {
 }
 
 .fake-icon {
-  fill: #f4f4fd;
+ 
+}
+.fake-check {
+  border: none;
+  border-color:  #404bbf;
+   fill: #f4f4fd;
   border: 1px solid #8e8f99;
   display: inline-flex;
   width: 16px;
   height: 16px;
-  border: 1px solid #2e2f42;
   border-radius: 2px;
   width: 16px;
   height: 16px;
@@ -860,35 +865,24 @@ img {
   justify-content: center;
   align-items: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
-.fake-check {
-  border: none;
-  border-color:  #404bbf;
-}
 
-.modal-form-check-desc {
-  display: block;
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-}
 
 .svg-check-icon {
-  /* opacity: o; */
-  width: 10px;
-  height: 8px;
+ 
+
 }
 
-.modal-form-check:checked + .fake-check > .fake-icon {
+.modal-form-check:checked + .fake-check {
   background-color: #404BBF;;
 }
 
 .modal-form-check:checked + .fake-check > .fake-icon > .svg-check-icon {
-  /* opacity: 1; */
+ 
   fill: #ffffff;
-  background-color: #404BBF;
+  
 }
 
 .modal-form-check:focus + .fake-check {

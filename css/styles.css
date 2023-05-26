@@ -923,12 +923,12 @@ img {
   
 }
 .footer-form-label {
-  /* margin-right: 24px; */
+  margin-right: 24px;
 }
 
 .footer-form-email {
   font-weight: 400;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   max-width: 264px;
   height: 40px;
   align-items: center;

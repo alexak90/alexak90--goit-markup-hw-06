@@ -881,7 +881,7 @@ img {
 .svg-check-icon {
 }
 
-.modal-form-check:checked + .modal-form-check-desc > .fake-check {
+.modal-form-check:checked + .modal-form-check-desc .fake-check {
   background-color: #404bbf;
   fill: #ffffff;
   border-color: #404bbf;

@@ -721,7 +721,7 @@ img {
 
 .svg-container {
   position: relative;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .modal-form-field {
@@ -802,8 +802,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 24px;
-  margin-top: 8px;
+  /* margin-bottom: 24px; */
+  /* margin-top: 8px; */
 }
 
 .link {

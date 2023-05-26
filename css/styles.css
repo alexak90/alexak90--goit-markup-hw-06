@@ -712,7 +712,7 @@ img {
 }
 
 .form-container {
-  /* margin-bottom: 8px; */
+  margin-bottom: 8px;
 }
 
 .textarea-container {
@@ -872,8 +872,6 @@ img {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;

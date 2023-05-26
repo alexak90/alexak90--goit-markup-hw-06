@@ -796,7 +796,7 @@ img {
 }
 
 .modal-form-check-desc {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   font-weight: 400;
   font-size: 12px;
@@ -885,8 +885,9 @@ img {
 .modal-form-check:checked + .modal-form-check-desc .fake-check {
   background-color: var(--third-backrgound-color);
   fill: #ffffff;
-  border-color: var(--third-backrgound-color);
   border: none;
+  border-color: var(--third-backrgound-color);
+  
 }
 
 .modal-form-check:checked

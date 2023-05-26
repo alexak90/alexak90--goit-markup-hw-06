@@ -865,9 +865,9 @@ img {
 .fake-icon {
 }
 .fake-check {
-  /* border: none;
+  border: none;
   border-color: #404bbf;
-  fill: #f4f4fd; */
+  fill: #f4f4fd;
   border: 1px solid #2e2f42;
   display: inline-flex;
   width: 16px;

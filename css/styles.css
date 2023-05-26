@@ -930,7 +930,6 @@ img {
   margin-right: 24px;
   max-width: 264px;
   height: 40px;
-  background-color: transparent;
   align-items: center;
   width: 264px;
   height: 40px;
@@ -944,8 +943,6 @@ img {
   background-color: transparent;
   color: #ffffff;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  background-color: #2e2f42;
 }
 
 .footer-submit {
@@ -973,4 +970,8 @@ img {
 .footer-submit:hover,
 .footer-submit:focus {
   background: #31d0aa;
+}
+
+.footer-form-svg {
+  margin-left: 16px;
 }

@@ -867,14 +867,13 @@ img {
   border: none;
   border-color: #404bbf;
   fill: #f4f4fd;
-  border: 1px solid #8e8f99;
+  border: 1px solid #2e2f42;
   display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  width: 16px;
-  height: 16px;
-  display: flex;
+  
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;

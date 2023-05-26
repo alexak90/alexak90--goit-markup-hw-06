@@ -864,9 +864,9 @@ img {
 .fake-icon {
 }
 .fake-check {
-  border: none;
+  /* border: none;
   border-color: #404bbf;
-  fill: #f4f4fd;
+  fill: #f4f4fd; */
   border: 1px solid #2e2f42;
   display: inline-flex;
   width: 16px;
@@ -884,7 +884,8 @@ img {
 .modal-form-check:checked + .modal-form-check-desc > .fake-check {
   background-color: #404bbf;
   fill: #ffffff;
-  border-color: #404bbf;;
+  border-color: #404bbf;
+  border: none;
 }
 
 .modal-form-check:checked

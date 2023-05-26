@@ -885,7 +885,7 @@ img {
 .modal-form-check:checked + .modal-form-check-desc .fake-check {
   background-color: var(--third-backrgound-color);
   border: none;
-  fill: #ffffff;
+  fill: var(--primary-background-color);
   border-color: var(--third-backrgound-color);
   
 }

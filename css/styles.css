@@ -866,8 +866,8 @@ img {
 }
 .fake-check {
   border: none;
-  border-color: #404bbf;
-  fill: #f4f4fd;
+  border-color: var(--third-backrgound-color);
+  fill: var(--primary-background-color);
   border: 1px solid #2e2f42;
   display: inline-flex;
   width: 16px;

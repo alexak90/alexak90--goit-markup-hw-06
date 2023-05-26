@@ -166,7 +166,7 @@ p {
 .link-text:focus {
   color: #404bbf;
 }
-/*========= Hero================ */
+/*========================================== Hero==================================== */
 .hero {
   background-color: var(--secondary-background-color);
   max-width: 1440px;
@@ -627,6 +627,9 @@ img {
   line-height: 1.2;
 }
 
+/* ---------================Backdrop==============-------------------- */
+/* ---------================Backdrop==============-------------------- */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -709,7 +712,7 @@ img {
 }
 
 .form-container {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .textarea-container {
@@ -835,6 +838,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+  background-color: #404bbf;
+}
+
 .modal-input-icon {
   position: absolute;
   top: 50%;
@@ -892,6 +900,8 @@ img {
   outline: 2px solid #404bbf;
   border: none;
 }
+/* ====================================Foter-form================================ */
+/* ====================================Foter-form================================ */
 
 .footer-form-container {
   margin-left: 80px;
@@ -901,15 +911,15 @@ img {
 .footer-form-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
-/* ====================================Foter-form================================ */
-/* ====================================Foter-form================================ */
 .footer-form {
   display: flex;
+  
 }
 .footer-form-label {
   margin-right: 24px;
@@ -917,8 +927,10 @@ img {
 
 .footer-form-email {
   font-weight: 400;
-
-  /* display: flex; */
+  margin-right: 24px;
+  max-width: 264px;
+  height: 40px;
+  background-color: transparent;
   align-items: center;
   width: 264px;
   height: 40px;
@@ -937,6 +949,7 @@ img {
 }
 
 .footer-submit {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -949,10 +962,15 @@ img {
   height: 40px;
   border: none;
   cursor: pointer;
-  color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 24px;
   gap: 16px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   border-radius: 4px;
+  border: none;
+}
+
+.footer-submit:hover,
+.footer-submit:focus {
+  background: #31d0aa;
 }

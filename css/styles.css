@@ -6,6 +6,7 @@
   --second-text-color: #2e2f42;
   --third-text-color: #f4f4fd;
   --left-logo-color: #4d5ae5;
+  --third-backrgound-color:#404bbf;
 }
 body {
   background-color: var(--primary-background-color);
@@ -882,9 +883,9 @@ img {
 }
 
 .modal-form-check:checked + .modal-form-check-desc .fake-check {
-  background-color: #404bbf;
+  background-color: var(--third-backrgound-color);
   fill: #ffffff;
-  border-color: #404bbf;
+  border-color: var(--third-backrgound-color);
   border: none;
 }
 
@@ -964,11 +965,11 @@ img {
   /* gap: 16px; */
   background-color: #4d5ae5;
   border-radius: 4px;
-  
+}
 
 .footer-submit:hover,
 .footer-submit:focus {
-  background-color: #31d0aa;
+  background: #31d0aa;
 }
 
 .footer-form-svg {
